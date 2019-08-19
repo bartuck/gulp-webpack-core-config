@@ -1,7 +1,7 @@
 {
-  "name": "noteboox-ui",
+  "name": "My Project",
   "version": "0.1.0",
-  "description": "Noteboox - PWA",
+  "description": "Gulp and Webpack - Core Configuration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,17 +13,17 @@
   },
   "keywords": [
     "JavaScript",
+    "ES6",
     "HTML",
     "CSS",
-    "Todo",
-    "PWA"
+    "SCSS"
   ],
   "author": "Bartosz Antonowicz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bartuck/noteboox-ui/issues"
+    "url": "https://github.com/bartuck/gulp-webpack-core-config/issues"
   },
-  "homepage": "https://github.com/bartuck/noteboox-ui#readme",
+  "homepage": "https://github.com/bartuck/gulp-webpack-core-config#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
