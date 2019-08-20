@@ -1,5 +1,5 @@
 {
-  "name": "My Project",
+  "name": "gulp-webpack-core-config",
   "version": "0.1.0",
   "description": "Gulp and Webpack - Core Configuration",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bartuck/noteboox-ui.git"
+    "url": "git+https://github.com/bartuck/gulp-webpack-core-config.git"
   },
   "keywords": [
     "JavaScript",
@@ -35,7 +35,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0",
-    "webpack": "^4.39.1",
+    "webpack": "^4.39.2",
     "webpack-stream": "^5.2.1"
-  }
+  },
+  "dependencies": {}
 }

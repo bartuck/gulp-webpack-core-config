@@ -5,7 +5,7 @@ const PORT = 3000;
 const SRC_DIR = 'src';
 const OUT_DIR = 'dist';
 const WEBPACK_OUT_DIR = OUT_DIR + '/';
-const SRC_TRANS = 'pl_PL.json'; // If it's changed on watch, you have to call $ gulp watch again
+const SRC_TRANS = 'en_GB.json'; // If it's changed on watch, you have to call $ gulp watch again
 const DEFAULT_TASKS = [cleanDest, copy, translate, processJs, processCss];
 
 // Imports
