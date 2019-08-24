@@ -6,6 +6,7 @@ const SRC_DIR = 'src';
 const OUT_DIR = 'dist';
 const WEBPACK_OUT_DIR = OUT_DIR + '/';
 const SRC_TRANS = 'en_GB.json'; // If it's changed on watch, you have to call $ gulp watch again
+const IMG_EXT = '{jpg,gif,png}'; // Available image extensions
 const DEFAULT_TASKS = [cleanDest, copy, translate, processJs, processCss];
 
 // Imports
@@ -41,7 +42,7 @@ function reload(next) {
 
 function copy() {
   return gulp.src([
-    SRC_DIR + '/**/*.jpg'
+    SRC_DIR + '/**/*.' + IMG_EXT
   ]).pipe(gulp.dest(OUT_DIR));
 }
 
@@ -76,7 +77,7 @@ function watch() {
   gulp.watch(SRC_DIR + '/*.html', gulp.series(translate, reload));
   gulp.watch(SRC_DIR + '/translations/*.json', gulp.series(translate, reload));
   gulp.watch(SRC_DIR + '/scss/**/*.scss', gulp.series(processCss, reload));
-  gulp.watch(SRC_DIR + '/js/*.js', gulp.series(processJs, reload));
+  gulp.watch(SRC_DIR + '/js/**/*.js', gulp.series(processJs, reload));
 }
 
 /**
