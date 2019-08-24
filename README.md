@@ -38,4 +38,4 @@ const DEFAULT_TASKS = [cleanDest, copy, translate, processJs, processCss];
  ```
 
 ## Related Topics
-Any problems with an architecture your Angular App? Visit https://github.com/bartuck/angular-best-boilerplate
+Any problems with an architecture of your Angular App? Visit https://github.com/bartuck/angular-best-boilerplate
