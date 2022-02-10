@@ -34,7 +34,7 @@
     "gulp-mustache": "^4.1.2",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "webpack": "^4.39.2",
     "webpack-stream": "^5.2.1"
   },
