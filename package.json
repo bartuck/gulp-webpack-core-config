@@ -28,7 +28,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "del": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-mustache": "^4.1.2",
